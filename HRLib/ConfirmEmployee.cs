@@ -2,7 +2,7 @@
 using System.Text;
 
 namespace HRLib
-{
+{    //git
     public class ConfirmEmployee :Employee
     {
 		private double basic;

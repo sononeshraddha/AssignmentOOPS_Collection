@@ -5,7 +5,12 @@ namespace HRApp
 {  internal class Program
     {
         static void Main(string[] args)
-        { try
+        { 
+            #region git
+             Console.WriteLine("Changes done from git repository");
+          #endregion
+            
+            try
             {
                 ConfirmEmployee confirmemp = new ConfirmEmployee("Aarav", "Pune", 32000, "Senior Developer");
                 Console.WriteLine(confirmemp); 

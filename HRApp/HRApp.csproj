@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Note.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HRLib\HRLib.csproj" />
   </ItemGroup>
 
